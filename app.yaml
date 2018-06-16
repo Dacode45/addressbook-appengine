@@ -1,0 +1,9 @@
+runtime: go
+api_version: go1
+
+env_variables:
+    USE_APPENGINE: 'true'
+
+handlers:
+- url: /.*
+  script: _addressbook
